@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: auto;
+  /*test rem*/
+  /*just px*/ }
+  .container .top {
+    display: flex;
+    width: 100%;
+    background-color: blanchedalmond; }
+    .container .top .top_left, .container .top .top_right {
+      display: block;
+      flex: 1; }
+    .container .top .top_left {
+      background-color: rebeccapurple;
+      font-size: .5rem; }
+  .container .center {
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+    background-color: silver; }
+    .container .center .center_left {
+      display: block;
+      flex: 1;
+      font-size: 28px; }
+    .container .center .center_right {
+      display: block;
+      flex: 1;
+      font-size: 58px; }
+
+/*# sourceMappingURL=index.css.map */

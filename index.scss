@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: auto;
+
+  /*test rem*/
+  .top {
+    display: flex;
+    width: 100%;
+    background-color: blanchedalmond;
+
+    .top_left, .top_right {
+      display: block;
+      flex: 1;
+    }
+    .top_left {
+      background-color: rebeccapurple;
+      font-size: .5rem;
+    }
+  }
+  /*just px*/
+
+  .center {
+    display: flex;
+    font-size: 22px;
+    width: 100%;
+    background-color: silver;
+
+    .center_left {
+      display: block;
+      flex: 1;
+      font-size: 28px;
+    }
+    .center_right {
+      display: block;
+      flex: 1;
+      font-size: 58px;
+    }
+  }
+
+}
